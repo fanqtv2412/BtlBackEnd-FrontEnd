@@ -15,7 +15,7 @@ namespace testWriteAPI.Controllers
     public class UserController : ApiController
     {
         UserService userService = new UserService();
-        
+        //localhost203030/api/User
         [HttpGet]
         public List<UserModel> getListUser()
         {
